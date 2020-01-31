@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Aku_Pintar</string>
+
+<string name="home">Home</string>
+<string name="diskusi">Discussion</string>
+<string name="Feed">Feed</string>
+<string name="account">Account</string>
+<string name="keluar">Keluar</string>
+<string name="open">Open</string>
+<string name="close">Close</string>
+<string-array name="lapangan">
+    <item>Taruna</item>
+    <item>Azalea</item>
+</string-array>
+<string-array name="nopunggung">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+</string-array>
+<string-array name="Jadwal">
+    <item>senin</item>
+    <item>Selasa</item>
+    <item>Kamis</item>
+    <item>Jumat</item>
+    <item>Sabtu</item>
+    <item>Minggu</item>
+</string-array>
+<string-array name="namapelatih">
+    <item>Troy Mokoagow</item>
+    <item>Bagus Prasetyo</item>
+</string-array>
+</resources>

@@ -1,15 +1,340 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="#f5f5f5"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tv_home"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/home"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:text="Kampus Pintar"/>
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:background="@color/design_default_color_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:entries="@array/spinner"
+            android:layout_margin="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+        <HorizontalScrollView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/btn_rounded_white3"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/its"/>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#fff"
+                        android:textSize="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_rounded_red"
+                        android:text="Akreditas : B"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="PTN-BH"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:padding="10dp"
+                    android:background="@drawable/btn_rounded_white3"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/its"/>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="Akreditas : B"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="PTN-BH"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:padding="10dp"
+                    android:background="@drawable/btn_rounded_white3"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/its"/>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="Akreditas : B"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="PTN-BH"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:padding="10dp"
+                    android:background="@drawable/btn_rounded_white3"
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/its"/>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="Akreditas : B"/>
+                        <TextView
+                            android:textColor="#fff"
+                            android:textSize="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_rounded_red"
+                            android:text="PTN-BH"/>
+                    </LinearLayout>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                    <TextView
+                        android:textSize="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institud Teknologi 10 november"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baru Saja Dilihat"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#6192EF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua"/>
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:padding="10dp"
+                android:background="@drawable/btn_rounded_white3"
+                android:layout_width="220dp"
+                android:layout_height="130dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/its"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#fff"
+                        android:textSize="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_rounded_red"
+                        android:text="Akreditas : B"/>
+                    <TextView
+                        android:textColor="#fff"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_rounded_red"
+                        android:text="PTN-BH"/>
+                </LinearLayout>
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Institud Teknologi 10 november"/>
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Institud Teknologi 10 november"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

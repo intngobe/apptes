@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+
+    <item android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+                    <corners android:radius="60dp"
+                        android:topLeftRadius="10dp"
+                        android:topRightRadius="220dp"
+                        android:bottomLeftRadius="220dp"
+                        android:bottomRightRadius="10dp"/>
+
+                    <solid android:color="#ffff"/>
+
+        </shape>
+    </item>
+
+
+</selector>

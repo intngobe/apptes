@@ -43,4 +43,7 @@
         <item>Top 10 Kampus Terbaik</item>
 
     </string-array>
+    <string name="title_activity_mapsitb">Map</string>
+    <string name="title_activity_mapsui">Map</string>
+    <string name="title_activity_mapsits">Map</string>
 </resources>

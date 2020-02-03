@@ -47,13 +47,13 @@ public class tesdb extends SQLiteOpenHelper {
         Log.d("Data", "onCreate: " + query);
         db.execSQL(query);
 
-        query = "insert into tb_univ values(1,'Institut Teknologi Bandung','Akreditas A','Status')";
+        query = "insert into tb_univ values(1,'Institut Teknologi Bandung','Akreditas A','PTN_BH')";
         db.execSQL(query);
-        query = "insert into tb_univ values(2,'Universitas Indonesia','Akreditas B','Status')";
+        query = "insert into tb_univ values(2,'Universitas Indonesia','Akreditas A','PTN_BH')";
         db.execSQL(query);
-        query = "insert into tb_univ values(3,'Institut Teknologi Sepuluh November','Akreditas C','Status')";
+        query = "insert into tb_univ values(3,'Institut Teknologi Sepuluh November','Akreditas A','PTN_BH')";
         db.execSQL(query);
-        query = "insert into tb_univ values(4,'Universitas Gadjah Mada','Akreditas D','Status')";
+        query = "insert into tb_univ values(4,'Universitas Gadjah Mada','Akreditas A','PTN_BH')";
         db.execSQL(query);
     }
 

@@ -46,19 +46,14 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/nama1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:text="Universitas Gadjah Mada"
+                android:text="Universitas Gadjah Mada "
                 android:textColor="#000000" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:text="(UGM)"
-                android:textColor="#000000" />
+
         </LinearLayout>
     </LinearLayout>
 
@@ -85,6 +80,7 @@
             android:textSize="20sp"
             />
         <TextView
+            android:id="@+id/jenis1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Universitas"
@@ -107,6 +103,7 @@
             android:textSize="20sp"
             />
         <TextView
+            android:id="@+id/status1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Negeri"
@@ -128,6 +125,7 @@
             android:textSize="20sp"
             />
         <TextView
+            android:id="@+id/akredi1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="A"
@@ -143,6 +141,7 @@
             android:layout_margin="15dp"
             android:background="#7E7E7E"/>
         <TextView
+            android:id="@+id/alamat1"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_width="wrap_content"
